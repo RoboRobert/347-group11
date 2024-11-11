@@ -1,53 +1,54 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Debug = System.Diagnostics.Debug;
 
 public class Player : MonoBehaviour
 {
-
     [Header("Set Dynamically")]
-    public GameObject player;
-    
     public float speed = 3f;
-    public Rigidbody rb;
-    public Vector3 velocity;
-
     public float health = 100f;
 
-
+    private Rigidbody _rb;
+    
     // Start is called before the first frame update
     void Start()
     {
-        FollowCam.POI = player;
-        // initialize rigid body to be the player's rigidbody
-        rb = this.GetComponent<Rigidbody>();
+        // Get the rigidbody component of the parent class
+        _rb = this.GetComponentInParent<Rigidbody>();
         
+        // Set the camera to follow the parent gameobject
+        FollowCam.POI = transform.parent.gameObject;
     }
 
     // Update is called once per frame
-    void Update()
+    // void Update()
+    // {
+    //     
+    // }
+
+    void FixedUpdate()
     {
         if (health <= 0)
         {
             UnityEngine.Debug.Log("Game over!!!");
             SceneManager.LoadScene("Scenes/Game_Over_Splash");
         }
+        
+        //Calls the movement logic for the player
+        movement_func();
     }
-
-    void FixedUpdate()
+    
+    // Player movement logic
+    void movement_func()
     {
         // Normalize input vector so the player doesn't move faster diagonally
-        Vector3 velocityDir = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0).normalized;
+        Vector3 velocityDir = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0).normalized;
         
-        movement_func(velocityDir);
-    }
-
-    void movement_func(Vector3 velocityDir)
-    {
-        rb.velocity = velocityDir * (speed * Time.fixedDeltaTime);
-        velocity = rb.velocity;
+        _rb.velocity = velocityDir * (speed * Time.fixedDeltaTime);
     }
 
     void OnCollisionEnter(Collision coll)

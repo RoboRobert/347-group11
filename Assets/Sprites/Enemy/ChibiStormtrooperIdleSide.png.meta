@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 04abd339844517840b343198af4f266b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2894490584247124907
+    second: ChibiStormtrooperIdleSide_0
+  - first:
+      213: -5807493352471501733
+    second: ChibiStormtrooperIdleSide_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -90,7 +96,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ChibiStormtrooperIdleSide_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba343c7c9db4b2820800000000000000
+      internalID: 2894490584247124907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChibiStormtrooperIdleSide_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b546e7ab093a76fa0800000000000000
+      internalID: -5807493352471501733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

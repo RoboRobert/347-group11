@@ -28,7 +28,6 @@ public class FollowCam : MonoBehaviour
         destination.z = camZ;
 
         transform.position = destination;
-
     }
 
 
