@@ -12,13 +12,13 @@ public class Player : MonoBehaviour
     public float speed = 3f;
     public float health = 100f;
 
-    private Rigidbody _rb;
+    private Rigidbody2D _rb;
     
     // Start is called before the first frame update
     void Start()
     {
         // Get the rigidbody component of the parent class
-        _rb = this.GetComponentInParent<Rigidbody>();
+        _rb = this.GetComponentInParent<Rigidbody2D>();
         
         // Set the camera to follow the parent gameobject
         FollowCam.POI = transform.parent.gameObject;
