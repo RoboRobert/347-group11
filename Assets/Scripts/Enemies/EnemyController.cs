@@ -10,7 +10,9 @@ public class EnemyController : MonoBehaviour
     public GameObject target;
     public float health = 100f;
     public float speed = 3f;
-    public float followDistance = 10f;
+    
+    //Follow distance in grid squares of 32 pixels each
+    public float followDistance = 2f;
     
     private Rigidbody2D _rb;
 
@@ -35,10 +37,18 @@ public class EnemyController : MonoBehaviour
     // Enemy movement logic
     void movement_func()
     {
+        //Amount to move the current enemy toward the target
+        Vector3 movementVector = Vector3.zero;
         // Gets a normalized distance to the target.
         Vector3 targetDir = target.transform.position - _rb.transform.position;
-        if (targetDir.magnitude < followDistance)
-            return;
-        _rb.velocity = targetDir.normalized * (speed * Time.fixedDeltaTime);
+        
+        //If the distance to the target is large enough, move toward the target
+        if (targetDir.magnitude > followDistance*0.32)
+        {
+            movementVector = targetDir.normalized * (speed * Time.fixedDeltaTime);
+        }
+    
+        //Apply the movement vector
+        _rb.velocity = movementVector;
     }
 }
