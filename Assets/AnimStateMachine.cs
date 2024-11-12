@@ -47,24 +47,29 @@ public class AnimStateMachine : MonoBehaviour
         {
             ChangeAnimation(currentIdle);
         }
-        //If the parent body is moving side to side, change to the side run animation
-        if (Mathf.Abs(vel.x) > 0f)
+        //If the parent body is moving horizontally more than vertically
+        if (Mathf.Abs(vel.x) > Mathf.Abs(vel.y))
         {
             currentIdle = sideIdle;
             ChangeAnimation(sideRun);
         }
-        //If the parent body moves down, play the down run animation and set the idle
-        if (vel.y < 0)
+        //If the parent body is moving vertically more than horizontally
+        else
         {
-            currentIdle = frontIdle;
-            ChangeAnimation(frontRun);
+            // Handle moving down
+            if (vel.y < 0)
+            {
+                currentIdle = frontIdle;
+                ChangeAnimation(frontRun);
+            }
+            //Handle moving up
+            if (vel.y > 0)
+            {
+                currentIdle = backIdle;
+                ChangeAnimation(backRun);
+            }
         }
-        //If the parent body moves up, play the up run animation and set the idle
-        if (vel.y > 0)
-        {
-            currentIdle = backIdle;
-            ChangeAnimation(backRun);
-        }
+        
         
         //Change scale based on movement
         if (vel.x < 0)
