@@ -17,11 +17,11 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // Get the rigidbody component of the parent class
-        _rb = this.GetComponentInParent<Rigidbody2D>();
+        // Get the rigidbody component
+        _rb = GetComponent<Rigidbody2D>();
         
-        // Set the camera to follow the parent gameobject
-        FollowCam.POI = transform.parent.gameObject;
+        // Set the camera to follow the current gameObject
+        FollowCam.POI = gameObject;
     }
 
     // Update is called once per frame
@@ -51,9 +51,11 @@ public class Player : MonoBehaviour
         _rb.velocity = velocityDir * (speed * Time.fixedDeltaTime);
     }
 
-    void OnCollisionEnter(Collision coll)
+    void OnCollisionEnter2D(Collision2D coll)
     {
         GameObject collidedWith = coll.gameObject; // what we collided with ?
+
+        UnityEngine.Debug.Log("Collision!");
 
         if (collidedWith.CompareTag("Enemy"))
         {

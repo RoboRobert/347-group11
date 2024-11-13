@@ -70,7 +70,6 @@ public class AnimStateMachine : MonoBehaviour
             }
         }
         
-        
         //Change scale based on movement
         if (vel.x < 0)
         {

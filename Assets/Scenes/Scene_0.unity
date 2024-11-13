@@ -3534,6 +3534,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6767279895486743455, guid: a069aba8057ff424ab452c519df434d0, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6767279895486743455, guid: a069aba8057ff424ab452c519df434d0, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1605502332}
     - target: {fileID: 7574442592905861927, guid: a069aba8057ff424ab452c519df434d0, type: 3}
       propertyPath: target
       value: 
@@ -3544,19 +3552,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7574442593244892509, guid: a069aba8057ff424ab452c519df434d0, type: 3}
       propertyPath: m_Size.x
-      value: 0.18213782
+      value: 0.19727993
       objectReference: {fileID: 0}
     - target: {fileID: 7574442593244892509, guid: a069aba8057ff424ab452c519df434d0, type: 3}
       propertyPath: m_Size.y
-      value: 0.25711322
+      value: 0.28235006
       objectReference: {fileID: 0}
     - target: {fileID: 7574442593244892509, guid: a069aba8057ff424ab452c519df434d0, type: 3}
       propertyPath: m_Offset.x
-      value: -0.009619638
+      value: -0.010881424
       objectReference: {fileID: 0}
     - target: {fileID: 7574442593244892509, guid: a069aba8057ff424ab452c519df434d0, type: 3}
       propertyPath: m_Offset.y
-      value: 0.001068823
+      value: -0.00019300729
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574442593244892510, guid: a069aba8057ff424ab452c519df434d0, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7574442593244892511, guid: a069aba8057ff424ab452c519df434d0, type: 3}
       propertyPath: m_RootOrder
@@ -3663,21 +3675,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8908709579264874785, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8908709579264874786, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
       propertyPath: m_Size.x
-      value: 0.1669786
+      value: 0.17899919
       objectReference: {fileID: 0}
     - target: {fileID: 8908709579264874786, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
       propertyPath: m_Size.y
-      value: 0.25026178
+      value: 0.26949483
       objectReference: {fileID: 0}
     - target: {fileID: 8908709579264874786, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
       propertyPath: m_Offset.x
-      value: -0.0016032457
+      value: -0.00040113926
       objectReference: {fileID: 0}
     - target: {fileID: 8908709579264874786, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
       propertyPath: m_Offset.y
-      value: -0.0042753518
+      value: -0.0066794753
       objectReference: {fileID: 0}
     - target: {fileID: 8908709579264874787, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
       propertyPath: m_Name
