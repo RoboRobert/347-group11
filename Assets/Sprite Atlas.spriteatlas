@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6bc070f738ffc764e8859d781ead5c2a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8901ed81f860ea2489c479804ceef1f2, type: 3}
+  - {fileID: -1458443813357182748, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: 5832503867631168462, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: -1676214605625876194, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: 1333520367039392188, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: -2251110279047685066, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: -6246983838945074412, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: 3815254287077816664, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: 4748979927042621237, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: -4570366890628840940, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: -5657355367272074767, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: 2781949047259051930, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: 3367943817971990689, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: 2894490584247124907, guid: 04abd339844517840b343198af4f266b, type: 3}
+  - {fileID: -5807493352471501733, guid: 04abd339844517840b343198af4f266b, type: 3}
+  - {fileID: -5204425059597230152, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
+  - {fileID: -8869303729163913976, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
+  - {fileID: -2752069116680283885, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
+  - {fileID: 7982268987426107260, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
+  - {fileID: 3248165775898020264, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
+  - {fileID: -4798798113507120732, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
+  - {fileID: -8437289885782533233, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 9014596620874794130, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -5895986489872383833, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 1827272384014389695, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 61818764125278199, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -6133912882510014951, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 4188730546139802686, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -718311455997826854, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -6359142359480549181, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -7253303374716886572, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -5817317862211706424, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 6638354352653465581, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -6235482027949788457, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 5165609305485800952, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -4315556054247036538, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -2313149963204037370, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -1439983967676690813, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -8884758340640381454, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
+  - {fileID: -7307091201172803677, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
+  - {fileID: 8923849342892721688, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
+  - {fileID: 6025258579971188207, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
+  - {fileID: -6534644708119224383, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
+  - {fileID: -8655095554066192975, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
+  - {fileID: 6796788559613336388, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
+  - {fileID: -420043517628980570, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
+  - {fileID: 1456487404436976397, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
+  - {fileID: -5425656779392140468, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
+  - {fileID: 2866171546297625809, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
+  - {fileID: -6080742608370530245, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
+  - {fileID: -247141911977100946, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
+  - {fileID: 5133055042726923214, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - SimpleFloor-1
+  - ChibiMandoIdleBack_5
+  - ChibiMandoIdleBack_4
+  - ChibiMandoIdleBack_1
+  - ChibiMandoIdleBack_0
+  - ChibiMandoIdleBack_3
+  - ChibiMandoIdleBack_2
+  - ChibiStormtrooperRunSide_3
+  - ChibiStormtrooperRunSide_2
+  - ChibiStormtrooperRunSide_1
+  - ChibiStormtrooperRunSide_0
+  - ChibiStormtrooperRunSide_5
+  - ChibiStormtrooperRunSide_4
+  - ChibiStormtrooperIdleSide_0
+  - ChibiStormtrooperIdleSide_1
+  - ChibiMandoIdleFrontSide_4
+  - ChibiMandoIdleFrontSide_5
+  - ChibiMandoIdleFrontSide_2
+  - ChibiMandoIdleFrontSide_3
+  - ChibiMandoIdleFrontSide_0
+  - ChibiMandoIdleFrontSide_1
+  - wallTileMap_8
+  - wallTileMap_9
+  - wallTileMap_6
+  - wallTileMap_7
+  - wallTileMap_4
+  - wallTileMap_5
+  - wallTileMap_2
+  - wallTileMap_3
+  - wallTileMap_0
+  - wallTileMap_1
+  - wallTileMap_15
+  - wallTileMap_14
+  - wallTileMap_16
+  - wallTileMap_11
+  - wallTileMap_10
+  - wallTileMap_13
+  - wallTileMap_12
+  - ChibiMando_2
+  - ChibiMando_3
+  - ChibiMando_0
+  - ChibiMando_1
+  - ChibiMando_4
+  - ChibiMando_5
+  - ChibiMandoIdleFront_3
+  - ChibiMandoIdleFront_2
+  - ChibiMandoIdleFront_1
+  - ChibiMandoIdleFront_0
+  - ChibiMandoIdleFront_5
+  - ChibiMandoIdleFront_4
+  - ChibiStormtrooperIdleFront_0
+  - ChibiStormtrooperIdleFront_1
+  m_RenderDataMap: {}
+  m_Tag: Sprite Atlas
+  m_IsVariant: 0
