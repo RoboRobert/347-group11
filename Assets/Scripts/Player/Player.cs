@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+//using static System.Net.Mime.MediaTypeNames;
+using UnityEngine.UI;
 using Debug = System.Diagnostics.Debug;
 
 public class Player : MonoBehaviour
@@ -13,7 +15,9 @@ public class Player : MonoBehaviour
     public float health = 100f;
 
     private Rigidbody2D _rb;
-    
+
+    public Text healthGT;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +26,13 @@ public class Player : MonoBehaviour
         
         // Set the camera to follow the current gameObject
         FollowCam.POI = gameObject;
+
+
+        // Get the health text game object
+        GameObject healthGO = GameObject.Find("HealthText");
+        healthGT = healthGO.GetComponent<Text>();
+        healthGT.text = "Health: ";
+
     }
 
     // Update is called once per frame
@@ -37,7 +48,27 @@ public class Player : MonoBehaviour
             UnityEngine.Debug.Log("Game over!!!");
             SceneManager.LoadScene("Scenes/Game_Over_Splash");
         }
+
+        string hearts = "";
+        float temp = health;
+        while (temp > 0) 
+        {
+            if (temp%20 == 0) 
+            {
+                hearts += "<";
+            }
+            else
+            {
+                hearts += "3";
+            }
+            temp -= 10;
+        }
+
         
+
+        healthGT.text = "Health: " + hearts;
+
+
         //Calls the movement logic for the player
         movement_func();
     }
