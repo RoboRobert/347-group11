@@ -93,6 +93,16 @@ SpriteAtlas:
   - {fileID: -4315556054247036538, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
   - {fileID: -2313149963204037370, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
   - {fileID: -1439983967676690813, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: -7411104514551814539, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: -3422370341971623990, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: 8094299825443585175, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: 3019362751208350325, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: -5678827424057353656, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: 2838253466871313059, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: -1870382262656145182, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: 4120100855367396073, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: -8522513298685017036, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
+  - {fileID: -5411274154397238880, guid: 7533bd3be0f27b7438247747f34d0a8c, type: 3}
   - {fileID: -8884758340640381454, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
   - {fileID: -7307091201172803677, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
   - {fileID: 8923849342892721688, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
@@ -152,6 +162,16 @@ SpriteAtlas:
   - wallTileMap_10
   - wallTileMap_13
   - wallTileMap_12
+  - DogRunSide_8
+  - DogRunSide_9
+  - DogRunSide_6
+  - DogRunSide_7
+  - DogRunSide_4
+  - DogRunSide_5
+  - DogRunSide_2
+  - DogRunSide_3
+  - DogRunSide_0
+  - DogRunSide_1
   - ChibiMando_2
   - ChibiMando_3
   - ChibiMando_0

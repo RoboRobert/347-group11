@@ -215,11 +215,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7c8f1b75e3a5a4ca2f83cc941123e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideRun: TrooperRunSide
+  sideRun: DogRunSide
   sideIdle: DogIdleFront
-  frontRun: TrooperRunSide
+  frontRun: DogRunSide
   frontIdle: DogIdleFront
-  backRun: TrooperRunSide
+  backRun: DogRunSide
   backIdle: DogIdleBack
 --- !u!95 &6608784939952573325
 Animator:
