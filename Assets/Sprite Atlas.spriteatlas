@@ -49,6 +49,7 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 6ab8cb503fd69b24abdc6c842d936032, type: 3}
   - {fileID: 21300000, guid: 8901ed81f860ea2489c479804ceef1f2, type: 3}
   - {fileID: -1458443813357182748, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: 5832503867631168462, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
@@ -62,6 +63,8 @@ SpriteAtlas:
   - {fileID: -5657355367272074767, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 2781949047259051930, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 3367943817971990689, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: -7611501259167258470, guid: a675722574060744eb6f506a6aa0c6ec, type: 3}
+  - {fileID: 1934347195755872070, guid: a675722574060744eb6f506a6aa0c6ec, type: 3}
   - {fileID: 2894490584247124907, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5807493352471501733, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5204425059597230152, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
@@ -102,6 +105,7 @@ SpriteAtlas:
   - {fileID: -247141911977100946, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
   - {fileID: 5133055042726923214, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
   m_PackedSpriteNamesToIndex:
+  - lobster
   - SimpleFloor-1
   - ChibiMandoIdleBack_5
   - ChibiMandoIdleBack_4
@@ -115,6 +119,8 @@ SpriteAtlas:
   - ChibiStormtrooperRunSide_0
   - ChibiStormtrooperRunSide_5
   - ChibiStormtrooperRunSide_4
+  - BeatingHeart_0
+  - BeatingHeart_1
   - ChibiStormtrooperIdleSide_0
   - ChibiStormtrooperIdleSide_1
   - ChibiMandoIdleFrontSide_4

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//using static System.Net.Mime.MediaTypeNames;
 using UnityEngine.UI;
 using Debug = System.Diagnostics.Debug;
 
@@ -90,17 +89,19 @@ public class Player : MonoBehaviour
 
         if (collidedWith.CompareTag("Enemy"))
         {
-            //Destroy(collidedWith);
-
-            // TO DO: make score go down when collided with enemy 
-            
-            /*
-            int score = int.Parse(scoreGT.text);
-            score += 50;
-            scoreGT.text = score.ToString();
-            */
-
+            // player health goes down by 10
             health -= 10;
+        }
+        if (collidedWith.CompareTag("Weapon"))
+        {
+            Destroy(collidedWith);
+
+        }
+        if (collidedWith.CompareTag("Life"))
+        {
+            Destroy(collidedWith);
+            health += 10;
+
         }
 
     }
