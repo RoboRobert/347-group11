@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
 
     public Text healthGT;
 
+    public string weaponType = "None";
+
     // Start is called before the first frame update
     void Start()
     {
