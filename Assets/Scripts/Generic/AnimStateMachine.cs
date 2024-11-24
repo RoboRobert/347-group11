@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class AnimStateMachine : MonoBehaviour
 {
-    public string sideRun = "";
-    public string sideIdle = "";
-    public string frontRun = "";
-    public string frontIdle = "";
-    public string backRun = "";
-    public string backIdle = "";
+    public AnimationClip sideRun;
+    public AnimationClip sideIdle;
+    public AnimationClip frontRun;
+    public AnimationClip frontIdle;
+    public AnimationClip backRun;
+    public AnimationClip backIdle;
     
     private Animator _animator;
-    private string currentAnimation = "";
-    private string currentIdle = "";
+    private AnimationClip currentAnimation;
+    private AnimationClip currentIdle;
     private Rigidbody2D _parentBody;
     // Start is called before the first frame update
     void Start()
@@ -26,12 +26,12 @@ public class AnimStateMachine : MonoBehaviour
         ChangeAnimation(frontIdle);
     }
 
-    private void ChangeAnimation(string animation)
+    private void ChangeAnimation(AnimationClip animation)
     {
         if (currentAnimation == animation)
             return;
         
-        _animator.Play(animation);
+        _animator.Play(animation.name);
         currentAnimation = animation;
     }
 
