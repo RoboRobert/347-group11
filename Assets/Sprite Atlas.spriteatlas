@@ -62,6 +62,7 @@ SpriteAtlas:
   - {fileID: -5657355367272074767, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 2781949047259051930, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 3367943817971990689, guid: 970491842b2f30042a107618724cff05, type: 3}
+  - {fileID: 21300000, guid: 1d40b5357b4e21144861a9d34fa264ea, type: 3}
   - {fileID: 2894490584247124907, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5807493352471501733, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5204425059597230152, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
@@ -115,6 +116,7 @@ SpriteAtlas:
   - ChibiStormtrooperRunSide_0
   - ChibiStormtrooperRunSide_5
   - ChibiStormtrooperRunSide_4
+  - Vulcan_Cannon
   - ChibiStormtrooperIdleSide_0
   - ChibiStormtrooperIdleSide_1
   - ChibiMandoIdleFrontSide_4
