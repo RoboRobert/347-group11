@@ -1881,6 +1881,14 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[3].Array.data[5].Y
       value: -15999999
       objectReference: {fileID: 0}
+    - target: {fileID: 4227898264674483214, guid: 5e3f3da8cfc7e88459aeaaa591323d61, type: 3}
+      propertyPath: m_TileOrientation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4227898264674483214, guid: 5e3f3da8cfc7e88459aeaaa591323d61, type: 3}
+      propertyPath: m_TileOrientationMatrix.e03
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e3f3da8cfc7e88459aeaaa591323d61, type: 3}
 --- !u!1001 &7574442592141107984
