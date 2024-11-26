@@ -63,6 +63,8 @@ SpriteAtlas:
   - {fileID: 2781949047259051930, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 3367943817971990689, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 21300000, guid: 1d40b5357b4e21144861a9d34fa264ea, type: 3}
+  - {fileID: 21300000, guid: 6ae342174223edb48880741ea865099f, type: 3}
+  - {fileID: 21300000, guid: 9d25b6e80b422d3479ec619f89ad4a62, type: 3}
   - {fileID: 2894490584247124907, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5807493352471501733, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5204425059597230152, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
@@ -88,6 +90,16 @@ SpriteAtlas:
   - {fileID: -4315556054247036538, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
   - {fileID: -2313149963204037370, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
   - {fileID: -1439983967676690813, guid: dc37d1f9ef12c614c986ef9ea24997c2, type: 3}
+  - {fileID: 3072922997060524455, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: 7822708599769128475, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: -4742562215590063549, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: -5123622166068404193, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: 2224309906516083646, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: 7383300987794164488, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: -5257635603301541286, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: -8056856544716990604, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: -6531247784544088530, guid: d0054c3a52e0dfe40b155681a2e82e24, type: 3}
+  - {fileID: 21300000, guid: 06ccba0b2926c66489e918eb2d7620d7, type: 3}
   - {fileID: -8884758340640381454, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
   - {fileID: -7307091201172803677, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
   - {fileID: 8923849342892721688, guid: 6ae52a8b435c8764f86c4cf6867ba137, type: 3}
@@ -117,6 +129,8 @@ SpriteAtlas:
   - ChibiStormtrooperRunSide_5
   - ChibiStormtrooperRunSide_4
   - Vulcan_Cannon
+  - KrampusSprite
+  - santaSprite
   - ChibiStormtrooperIdleSide_0
   - ChibiStormtrooperIdleSide_1
   - ChibiMandoIdleFrontSide_4
@@ -142,6 +156,16 @@ SpriteAtlas:
   - wallTileMap_10
   - wallTileMap_13
   - wallTileMap_12
+  - AttackMarker_0
+  - AttackMarker_1
+  - AttackMarker_2
+  - AttackMarker_3
+  - AttackMarker_4
+  - AttackMarker_5
+  - AttackMarker_6
+  - AttackMarker_7
+  - AttackMarker_8
+  - lightBullet
   - ChibiMando_2
   - ChibiMando_3
   - ChibiMando_0
