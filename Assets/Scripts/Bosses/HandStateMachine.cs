@@ -40,6 +40,11 @@ public class HandStateMachine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Do nothing if dead.
+        if (_state == "DEAD")
+        {
+            return;
+        }
         if(_state == "SMASH") {
             ChangeAnimation(handSmash);
             transform.position = Vector2.MoveTowards(transform.position, targetPos, 0.1f);
