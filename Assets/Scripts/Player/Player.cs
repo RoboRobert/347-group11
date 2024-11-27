@@ -43,6 +43,15 @@ public class Player : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        // only call attack func if there was a Horizontal1 or Vertical1 keyboard event
+        if (Input.GetKeyDown("up") || Input.GetKeyDown("down") || Input.GetKeyDown("left") || Input.GetKeyDown("right"))
+        {
+            attack_func();
+
+        }
+    }
 
     void FixedUpdate()
     {
@@ -72,13 +81,6 @@ public class Player : MonoBehaviour
 
         //Calls the movement logic for the player
         movement_func();
-
-        // only call attack func if there was a Horizontal1 or Vertical1 keyboard event
-        if (Input.GetKeyDown("up") || Input.GetKeyDown("down") || Input.GetKeyDown("left") || Input.GetKeyDown("right"))
-        {
-            attack_func();
-            
-        }
         
 
     }
@@ -87,13 +89,13 @@ public class Player : MonoBehaviour
     void attack_func()
     {
         // create a new Attack object
-        GameObject attack = Instantiate<GameObject>(attackPrefab);    // instantiate a new object type GameObject with prefab attackPrefab
-        attack.transform.position = transform.position;              // give the attack a transformation
+        GameObject pow = Instantiate<GameObject>(attackPrefab);    // instantiate a new object type GameObject with prefab attackPrefab
+        pow.transform.position = transform.position;              // give the attack a transformation
 
+        // call the attack object movement func:
+        pow.GetComponent<attack>().attack_movement_func();
         
-        // Normalize input vector so the player doesn't move faster diagonally
-        Vector3 velocityDir = new Vector3(Input.GetAxisRaw("Horizontal1"), Input.GetAxisRaw("Vertical1"), 0).normalized;
-        attack.GetComponent<Rigidbody2D>().velocity = velocityDir * (speed * Time.fixedDeltaTime);
+
     }
     
     // Player movement logic
