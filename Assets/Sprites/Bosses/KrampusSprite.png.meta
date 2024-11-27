@@ -3,44 +3,155 @@ guid: 8cd4223d93eed744b94524e6a25d56b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2966547948166024699
-    second: KrampusSprite 1_0
+      213: -4753209874107151472
+    second: KrampusSprite_0
   - first:
-      213: 5345472597513434929
-    second: KrampusSprite 1_1
+      213: 6174368967731973190
+    second: KrampusSprite_1
   - first:
-      213: -1012022210854466100
-    second: KrampusSprite 1_2
+      213: -7124148398642399778
+    second: KrampusSprite_2
   - first:
-      213: -8895292281155072048
-    second: KrampusSprite 1_3
+      213: 6907015459989233973
+    second: KrampusSprite_3
   - first:
-      213: -7941544477958398095
-    second: KrampusSprite 1_4
+      213: 3096084808932458959
+    second: KrampusSprite_4
   - first:
-      213: -3262096055864423080
-    second: KrampusSprite 1_5
+      213: 7455012297301321609
+    second: KrampusSprite_5
   - first:
-      213: 2257387585900279139
-    second: KrampusSprite 1_6
+      213: -5644483536372949306
+    second: KrampusSprite_6
   - first:
-      213: -1801957222927527242
-    second: KrampusSprite 1_7
+      213: -6344189693787066202
+    second: KrampusSprite_7
   - first:
-      213: 3147195829767259233
-    second: KrampusSprite 1_8
+      213: -2056748522766186961
+    second: KrampusSprite_8
   - first:
-      213: 5184347747605204643
-    second: KrampusSprite 1_9
+      213: -3250325928854295455
+    second: KrampusSprite_9
   - first:
-      213: 875944840968561283
-    second: KrampusSprite 1_10
+      213: -4695175311617086498
+    second: KrampusSprite_10
   - first:
-      213: 1014709553854004867
-    second: KrampusSprite 1_11
+      213: -2440487496706994484
+    second: KrampusSprite_11
   - first:
-      213: -5861978367328462272
-    second: KrampusSprite 1_12
+      213: -886845452783578198
+    second: KrampusSprite_12
+  - first:
+      213: 5046935730889694099
+    second: KrampusSprite_13
+  - first:
+      213: 4163848104991043953
+    second: KrampusSprite_14
+  - first:
+      213: 8214575812407308943
+    second: KrampusSprite_15
+  - first:
+      213: -1350238166477707623
+    second: KrampusSprite_16
+  - first:
+      213: -3399498921999513682
+    second: KrampusSprite_17
+  - first:
+      213: -500781461569027054
+    second: KrampusSprite_18
+  - first:
+      213: 6318924133117383213
+    second: KrampusSprite_19
+  - first:
+      213: 8878945716721328793
+    second: KrampusSprite_20
+  - first:
+      213: -8933352704779949664
+    second: KrampusSprite_21
+  - first:
+      213: -3146323540097069120
+    second: KrampusSprite_22
+  - first:
+      213: -8122302072327642009
+    second: KrampusSprite_23
+  - first:
+      213: -7247438088597153639
+    second: KrampusSprite_24
+  - first:
+      213: 2116511807169017037
+    second: KrampusSprite_25
+  - first:
+      213: 2807664456156462525
+    second: KrampusSprite_26
+  - first:
+      213: 7924620257623857955
+    second: KrampusSprite_27
+  - first:
+      213: -4100817412166656786
+    second: KrampusSprite_28
+  - first:
+      213: 1895290621305948799
+    second: KrampusSprite_29
+  - first:
+      213: -1225455986105335716
+    second: KrampusSprite_30
+  - first:
+      213: 7130483710704671966
+    second: KrampusSprite_31
+  - first:
+      213: 9113889976223837510
+    second: KrampusSprite_32
+  - first:
+      213: -616490638399277350
+    second: KrampusSprite_33
+  - first:
+      213: -4167908241184287949
+    second: KrampusSprite_34
+  - first:
+      213: 3660134024046599946
+    second: KrampusSprite_35
+  - first:
+      213: -4850582030233798907
+    second: KrampusSprite_36
+  - first:
+      213: -8339379417242407930
+    second: KrampusSprite_37
+  - first:
+      213: -27268780466961177
+    second: KrampusSprite_38
+  - first:
+      213: 1329884306615939577
+    second: KrampusSprite_39
+  - first:
+      213: 2057466475905092302
+    second: KrampusSprite_40
+  - first:
+      213: -3040535565653090546
+    second: KrampusSprite_41
+  - first:
+      213: -4336235943804418209
+    second: KrampusSprite_42
+  - first:
+      213: -1392840881055380780
+    second: KrampusSprite_43
+  - first:
+      213: -2234632638914236406
+    second: KrampusSprite_44
+  - first:
+      213: 4983743086669731244
+    second: KrampusSprite_45
+  - first:
+      213: 2382831335291968378
+    second: KrampusSprite_46
+  - first:
+      213: -8324535616409450782
+    second: KrampusSprite_47
+  - first:
+      213: -2144741284113762690
+    second: KrampusSprite_48
+  - first:
+      213: 2919478367994340564
+    second: KrampusSprite_49
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -131,13 +242,853 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: KrampusSprite 1_0
+      name: KrampusSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bc6f69dc4390eb0800000000000000
+      internalID: -4753209874107151472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c0cd9ecd3cfa550800000000000000
+      internalID: 6174368967731973190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed570cbd6c0f12d90800000000000000
+      internalID: -7124148398642399778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5312ac647f5aadf50800000000000000
+      internalID: 6907015459989233973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc107eedab087fa20800000000000000
+      internalID: 3096084808932458959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98760d0af26857760800000000000000
+      internalID: 7455012297301321609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce13f12124caa1b0800000000000000
+      internalID: -5644483536372949306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0b0222619e4f7a0800000000000000
+      internalID: -6344189693787066202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26463c9d16f473e0800000000000000
+      internalID: -2056748522766186961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ce566e9c584e2d0800000000000000
+      internalID: -3250325928854295455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb21e02ee267deb0800000000000000
+      internalID: -4695175311617086498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce4fff4d85a12ed0800000000000000
+      internalID: -2440487496706994484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa31a2862ca41b3f0800000000000000
+      internalID: -886845452783578198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b18e3be415a0640800000000000000
+      internalID: 5046935730889694099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171bcac5ac5f8c930800000000000000
+      internalID: 4163848104991043953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82bd0fbd29000270800000000000000
+      internalID: 8214575812407308943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996ebec9a8df24de0800000000000000
+      internalID: -1350238166477707623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea745e3edbd82d0d0800000000000000
+      internalID: -3399498921999513682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214c319f9eddc09f0800000000000000
+      internalID: -500781461569027054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_19
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22da1d150451b750800000000000000
+      internalID: 6318924133117383213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992a621361a583b70800000000000000
+      internalID: 8878945716721328793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9e052cb0b560480800000000000000
+      internalID: -8933352704779949664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf801409630654d0800000000000000
+      internalID: -3146323540097069120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_23
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764ed7c8c49c74f80800000000000000
+      internalID: -8122302072327642009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998d78df47deb6b90800000000000000
+      internalID: -7247438088597153639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4ba3d564c5f5d10800000000000000
+      internalID: 2116511807169017037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_26
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd32bd72f3d6f620800000000000000
+      internalID: 2807664456156462525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bd88b4328e9fd60800000000000000
+      internalID: 7924620257623857955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_28
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eecd11b6a48f617c0800000000000000
+      internalID: -4100817412166656786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a021547cc6d4a10800000000000000
+      internalID: 1895290621305948799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50c05cf54e4efee0800000000000000
+      internalID: -1225455986105335716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcd24de72194f260800000000000000
+      internalID: 7130483710704671966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64da0da55aa0b7e70800000000000000
+      internalID: 9113889976223837510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad67bdad709c177f0800000000000000
+      internalID: -616490638399277350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_34
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33399c3898d9826c0800000000000000
+      internalID: -4167908241184287949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_35
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f5e9da0886bc230800000000000000
+      internalID: 3660134024046599946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_36
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507750ec7554facb0800000000000000
+      internalID: -4850582030233798907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cef0c9a92944c80800000000000000
+      internalID: -8339379417242407930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_38
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e40fca403f1f9ff0800000000000000
+      internalID: -27268780466961177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1b5381bb2b47210800000000000000
+      internalID: 1329884306615939577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_40
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,41 +1096,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfd899334ab4b2920800000000000000
-      internalID: 2966547948166024699
+      spriteID: eca0991ebd69d8c10800000000000000
+      internalID: 2057466475905092302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KrampusSprite 1_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1377f53810fee2a40800000000000000
-      internalID: 5345472597513434929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KrampusSprite 1_2
+      name: KrampusSprite_41
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,41 +1117,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ccdc631492394f1f0800000000000000
-      internalID: -1012022210854466100
+      spriteID: e0f5e423309ddc5d0800000000000000
+      internalID: -3040535565653090546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KrampusSprite 1_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0df4a70bcc29d8480800000000000000
-      internalID: -8895292281155072048
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KrampusSprite 1_4
+      name: KrampusSprite_42
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,41 +1138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17f13579f57f9c190800000000000000
-      internalID: -7941544477958398095
+      spriteID: f57c14b226892d3c0800000000000000
+      internalID: -4336235943804418209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KrampusSprite 1_5
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85d8ff6abe4bab2d0800000000000000
-      internalID: -3262096055864423080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KrampusSprite 1_6
+      name: KrampusSprite_43
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,41 +1159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36576f99c0ad35f10800000000000000
-      internalID: 2257387585900279139
+      spriteID: 4da4d082992abace0800000000000000
+      internalID: -1392840881055380780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KrampusSprite 1_7
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b294f2f3792ef6e0800000000000000
-      internalID: -1801957222927527242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KrampusSprite 1_8
+      name: KrampusSprite_44
       rect:
         serializedVersion: 2
         x: 512
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,41 +1180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1644edfbee51dab20800000000000000
-      internalID: 3147195829767259233
+      spriteID: a00f50a547dfcf0e0800000000000000
+      internalID: -2234632638914236406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KrampusSprite 1_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3aeca100fc082f740800000000000000
-      internalID: 5184347747605204643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KrampusSprite 1_10
+      name: KrampusSprite_45
       rect:
         serializedVersion: 2
         x: 640
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,41 +1201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38264c0213bf72c00800000000000000
-      internalID: 875944840968561283
+      spriteID: ca512ccaeefc92540800000000000000
+      internalID: 4983743086669731244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: KrampusSprite 1_11
-      rect:
-        serializedVersion: 2
-        x: 704
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38eb9ab86f8f41e00800000000000000
-      internalID: 1014709553854004867
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: KrampusSprite 1_12
+      name: KrampusSprite_46
       rect:
         serializedVersion: 2
         x: 768
         y: 0
-        width: 64
-        height: 64
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,8 +1222,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04adc56abb116aea0800000000000000
-      internalID: -5861978367328462272
+      spriteID: a7b5fb38974811120800000000000000
+      internalID: 2382831335291968378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6c3df46fe497c80800000000000000
+      internalID: -8324535616409450782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_48
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76b8495a295c32e0800000000000000
+      internalID: -2144741284113762690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KrampusSprite_49
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d46dbd8b12148820800000000000000
+      internalID: 2919478367994340564
       vertices: []
       indices: 
       edges: []
@@ -406,7 +1294,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 15493fab4673c144e8ac61f31a0c65ae
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
