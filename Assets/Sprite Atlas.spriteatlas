@@ -50,6 +50,7 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 6ab8cb503fd69b24abdc6c842d936032, type: 3}
+  - {fileID: 21300000, guid: 123fb6312888e5b49859d1185264183d, type: 3}
   - {fileID: 21300000, guid: 8901ed81f860ea2489c479804ceef1f2, type: 3}
   - {fileID: -1458443813357182748, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: 5832503867631168462, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
@@ -106,6 +107,7 @@ SpriteAtlas:
   - {fileID: 5133055042726923214, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
   m_PackedSpriteNamesToIndex:
   - lobster
+  - dogfood
   - SimpleFloor-1
   - ChibiMandoIdleBack_5
   - ChibiMandoIdleBack_4

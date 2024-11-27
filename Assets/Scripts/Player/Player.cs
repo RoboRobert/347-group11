@@ -19,6 +19,11 @@ public class Player : MonoBehaviour
 
     public string weaponType = "None";
 
+    // weapon default
+    public float range = 2f;
+    public float damage = 4f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +41,6 @@ public class Player : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    // void Update()
-    // {
-    //     
-    // }
 
     void FixedUpdate()
     {
@@ -65,13 +65,17 @@ public class Player : MonoBehaviour
             temp -= 10;
         }
 
-        
-
         healthGT.text = "Health: " + hearts;
 
 
         //Calls the movement logic for the player
         movement_func();
+    }
+    
+    // funcion that controls attack logic
+    void attack_func()
+    {
+        
     }
     
     // Player movement logic
@@ -97,6 +101,8 @@ public class Player : MonoBehaviour
         if (collidedWith.CompareTag("Weapon"))
         {
             Destroy(collidedWith);
+            weaponType = coll.gameObject.name;
+            UnityEngine.Debug.Log("Weapon collected: " + weaponType);
 
         }
         if (collidedWith.CompareTag("Life"))
