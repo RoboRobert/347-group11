@@ -13,7 +13,7 @@ public class attack : MonoBehaviour
 
     private Rigidbody2D attack_rb;
 
-    public int lifetime = 1000;
+    public int lifetime = 30;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,4 +45,5 @@ public class attack : MonoBehaviour
         lifetime -= 1;
 
     }
+
 }
