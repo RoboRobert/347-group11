@@ -5,7 +5,7 @@ using UnityEngine;
 public class attack : MonoBehaviour
 {
 
-    public int lifetime = 10;
+    public int lifetime = 25;
     // Start is called before the first frame update
     void Start()
     {

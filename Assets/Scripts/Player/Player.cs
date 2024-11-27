@@ -74,7 +74,7 @@ public class Player : MonoBehaviour
         movement_func();
 
         // only call attack func if there was a Horizontal1 or Vertical1 keyboard event
-        if (Input.GetKeyDown("up"))
+        if (Input.GetKeyDown("up") || Input.GetKeyDown("down") || Input.GetKeyDown("left") || Input.GetKeyDown("right"))
         {
             attack_func();
             
@@ -90,9 +90,10 @@ public class Player : MonoBehaviour
         GameObject attack = Instantiate<GameObject>(attackPrefab);    // instantiate a new object type GameObject with prefab attackPrefab
         attack.transform.position = transform.position;              // give the attack a transformation
 
+        
         // Normalize input vector so the player doesn't move faster diagonally
-        //Vector3 velocityDir = new Vector3(Input.GetAxisRaw("Horizontal1"), Input.GetAxisRaw("Vertical1"), 0).normalized;
-        //_rb.velocity = velocityDir * (speed * Time.fixedDeltaTime);
+        Vector3 velocityDir = new Vector3(Input.GetAxisRaw("Horizontal1"), Input.GetAxisRaw("Vertical1"), 0).normalized;
+        attack.GetComponent<Rigidbody2D>().velocity = velocityDir * (speed * Time.fixedDeltaTime);
     }
     
     // Player movement logic

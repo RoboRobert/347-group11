@@ -150,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8908709579264874787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.069, y: 0, z: 0}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.2}
   m_Children:
   - {fileID: 8908709578795498475}
@@ -219,3 +219,7 @@ MonoBehaviour:
   speed: 50
   health: 100
   healthGT: {fileID: 0}
+  weaponType: None
+  range: 2
+  damage: 4
+  attackPrefab: {fileID: 0}
