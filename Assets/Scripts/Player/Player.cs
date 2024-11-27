@@ -48,7 +48,31 @@ public class Player : MonoBehaviour
         // only call attack func if there was a Horizontal1 or Vertical1 keyboard event
         if (Input.GetKeyDown("up") || Input.GetKeyDown("down") || Input.GetKeyDown("left") || Input.GetKeyDown("right"))
         {
-            attack_func();
+            Vector3 attack_vector = new Vector3(speed * Time.deltaTime, 0, 0);
+           
+            if (Input.GetKeyDown("up"))
+            {
+                attack_vector = Vector3.up;
+            }
+            else if (Input.GetKeyDown("down"))
+            {
+                attack_vector = Vector3.down;
+            }
+            else if (Input.GetKeyDown("left"))
+            {
+                attack_vector = Vector3.left;
+            }
+            else if (Input.GetKeyDown("right"))
+            {
+                attack_vector = Vector3.right;
+            }
+
+            // create a new Attack object
+            GameObject pow = Instantiate<GameObject>(attackPrefab);    // instantiate a new object type GameObject with prefab attackPrefab
+            pow.transform.position = transform.position;              // give the attack a transformation
+
+            // call the attack object movement func:
+            pow.GetComponent<attack>().attack_movement_func(attack_vector);
 
         }
     }
@@ -85,18 +109,6 @@ public class Player : MonoBehaviour
 
     }
     
-    // funcion that controls attack logic
-    void attack_func()
-    {
-        // create a new Attack object
-        GameObject pow = Instantiate<GameObject>(attackPrefab);    // instantiate a new object type GameObject with prefab attackPrefab
-        pow.transform.position = transform.position;              // give the attack a transformation
-
-        // call the attack object movement func:
-        pow.GetComponent<attack>().attack_movement_func();
-        
-
-    }
     
     // Player movement logic
     void movement_func()
