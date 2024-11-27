@@ -4156,6 +4156,10 @@ PrefabInstance:
       value: GenericPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 8908709579264874787, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8908709579264874787, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}

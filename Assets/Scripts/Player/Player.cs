@@ -52,19 +52,19 @@ public class Player : MonoBehaviour
            
             if (Input.GetKeyDown("up"))
             {
-                attack_vector = Vector3.up;
+                attack_vector = Vector3.up / 10;
             }
             else if (Input.GetKeyDown("down"))
             {
-                attack_vector = Vector3.down;
+                attack_vector = Vector3.down / 10;
             }
             else if (Input.GetKeyDown("left"))
             {
-                attack_vector = Vector3.left;
+                attack_vector = Vector3.left / 10;
             }
             else if (Input.GetKeyDown("right"))
             {
-                attack_vector = Vector3.right;
+                attack_vector = Vector3.right /10;
             }
 
             // create a new Attack object

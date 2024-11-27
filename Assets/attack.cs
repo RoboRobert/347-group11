@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Debug = System.Diagnostics.Debug;
+
 
 public class attack : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class attack : MonoBehaviour
 
     private Rigidbody2D attack_rb;
 
-    public int lifetime = 5;
+    public int lifetime = 2;
 
     public Vector3 direction;
     // Start is called before the first frame update
@@ -29,24 +31,28 @@ public class attack : MonoBehaviour
     public void attack_movement_func(Vector3 my_vector)
     {
         direction= my_vector;
-        transform.Translate(my_vector / 10);
+        transform.Translate(my_vector / 5);
 
     }
 
     // Update is called once per frame
     void Update()
-    {  
+    {
+        lifetime = lifetime - 1;
+
+        if (lifetime <= 0)
+        {
+            UnityEngine.Debug.Log("destroying attack");
+
+            Destroy(this.gameObject);
+        }
+
     }
 
     void FixedUpdate()
     {
 
-        lifetime -= 1;
-
-        if (lifetime <= 0)
-        {
-            Destroy(this.gameObject);
-        }
+        
         attack_movement_func(direction);
 
     }
