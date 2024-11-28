@@ -32,6 +32,11 @@ public class EnemyController : MonoBehaviour
     {  
         //Calls the movement logic for the enemy
         movement_func();
+
+        if (health<= 0 )
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     // Enemy movement logic
@@ -50,5 +55,18 @@ public class EnemyController : MonoBehaviour
     
         //Apply the movement vector
         _rb.velocity = movementVector;
+    }
+
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        GameObject collidedWith = coll.gameObject;
+
+        if (collidedWith.CompareTag("Attack"))
+        {
+            // TO DO: make health go down by weapon damage, not 10
+            Destroy(collidedWith);
+            // enemy health goes down by 10
+            health -= 10;
+        }
     }
 }
