@@ -15,7 +15,10 @@ public class attack : MonoBehaviour
 
     private Rigidbody2D attack_rb;
 
-    public int lifetime = 2;
+    public int lifetime = -10;
+
+    // inverse proportional bullet speed, set by weapons in Player.cs
+    public float bullet_speed = 500f;
 
     public Vector3 direction;
     // Start is called before the first frame update
@@ -24,14 +27,14 @@ public class attack : MonoBehaviour
         // Get the rigidbody component
         attack_rb = GetComponent<Rigidbody2D>();
 
-        
-
     }
 
     public void attack_movement_func(Vector3 my_vector)
     {
-        direction= my_vector;
-        transform.Translate(my_vector / 5);
+        
+
+        direction = my_vector;
+        transform.Translate(my_vector / bullet_speed);
 
     }
 
@@ -46,13 +49,11 @@ public class attack : MonoBehaviour
 
             Destroy(this.gameObject);
         }
-
     }
 
     void FixedUpdate()
     {
 
-        
         attack_movement_func(direction);
 
     }
