@@ -15,10 +15,12 @@ public class attack : MonoBehaviour
 
     private Rigidbody2D attack_rb;
 
-    public int lifetime = -10;
+    public float lifetime = 50;
+
+    public float attack_size = 1f;
 
     // inverse proportional bullet speed, set by weapons in Player.cs
-    public float bullet_speed = 500f;
+    public float bullet_speed = 10f;
 
     public Vector3 direction;
     // Start is called before the first frame update
@@ -26,36 +28,48 @@ public class attack : MonoBehaviour
     {
         // Get the rigidbody component
         attack_rb = GetComponent<Rigidbody2D>();
+        
 
     }
 
     public void attack_movement_func(Vector3 my_vector)
+    {       
+
+        direction = my_vector / bullet_speed;
+        transform.Translate(my_vector);
+
+    }
+
+    public void attack_init_func(float size, float speed, float range)
     {
-        
+        bullet_speed= speed;
+        lifetime = range;
+        attack_size= size;
 
-        direction = my_vector;
-        transform.Translate(my_vector / bullet_speed);
-
+        this.transform.localScale = Vector3.one * size;
     }
 
     // Update is called once per frame
     void Update()
     {
-        lifetime = lifetime - 1;
+        
 
-        if (lifetime <= 0)
-        {
-            UnityEngine.Debug.Log("destroying attack");
-
-            Destroy(this.gameObject);
-        }
+        
     }
 
     void FixedUpdate()
     {
+        lifetime = lifetime - 1;
+
+        // UnityEngine.Debug.Log("life time = " + lifetime);
+
+        if (lifetime <= 0)
+        {
+            // UnityEngine.Debug.Log("destroying attack");
+            Destroy(this.gameObject);
+        }
 
         attack_movement_func(direction);
-
     }
 
 

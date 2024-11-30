@@ -20,8 +20,10 @@ public class Player : MonoBehaviour
     public string weaponType = "None";
 
     // weapon default
-    public float range = 2f;
-    public float damage = 4f;
+    
+    public float attack_size = 1f;
+    public float attack_speed = 1f;
+    public float attack_range = 1f;
 
     public GameObject attackPrefab;
 
@@ -71,8 +73,13 @@ public class Player : MonoBehaviour
             GameObject pow = Instantiate<GameObject>(attackPrefab);    // instantiate a new object type GameObject with prefab attackPrefab
             pow.transform.position = transform.position;              // give the attack a transformation
 
+
+            // call the attack object initialization func
+            pow.GetComponent<attack>().attack_init_func(attack_size, attack_speed, attack_range);
+
             // call the attack object movement func:
             pow.GetComponent<attack>().attack_movement_func(attack_vector);
+
 
         }
     }
@@ -105,8 +112,6 @@ public class Player : MonoBehaviour
 
         //Calls the movement logic for the player
         movement_func();
-        
-
     }
     
     
@@ -135,6 +140,17 @@ public class Player : MonoBehaviour
             Destroy(collidedWith);
             weaponType = coll.gameObject.name;
             UnityEngine.Debug.Log("Weapon collected: " + weaponType);
+
+            if (weaponType == "Lobster")
+            {
+                attack_range = 50f;
+                attack_size = .5f;
+            }
+            if (weaponType == "Hammer")
+            {
+                attack_range = 3f;
+                attack_size = 1.5f;
+            }
 
         }
         if (collidedWith.CompareTag("Life"))

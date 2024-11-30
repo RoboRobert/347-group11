@@ -66,8 +66,8 @@ SpriteAtlas:
   - {fileID: 3367943817971990689, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: -7611501259167258470, guid: a675722574060744eb6f506a6aa0c6ec, type: 3}
   - {fileID: 1934347195755872070, guid: a675722574060744eb6f506a6aa0c6ec, type: 3}
-  - {fileID: 21300000, guid: d0d61b4735d16cd4095876c2c2cc242f, type: 3}
   - {fileID: 21300000, guid: 1d40b5357b4e21144861a9d34fa264ea, type: 3}
+  - {fileID: 21300000, guid: d0d61b4735d16cd4095876c2c2cc242f, type: 3}
   - {fileID: 8828094820161322009, guid: 9d25b6e80b422d3479ec619f89ad4a62, type: 3}
   - {fileID: 700755855247392200, guid: 9d25b6e80b422d3479ec619f89ad4a62, type: 3}
   - {fileID: -1178491555717029584, guid: 9d25b6e80b422d3479ec619f89ad4a62, type: 3}
@@ -258,8 +258,8 @@ SpriteAtlas:
   - ChibiStormtrooperRunSide_4
   - BeatingHeart_0
   - BeatingHeart_1
-  - pow
   - Vulcan_Cannon
+  - pow
   - santaSprite_8
   - santaSprite_9
   - santaSprite_0
