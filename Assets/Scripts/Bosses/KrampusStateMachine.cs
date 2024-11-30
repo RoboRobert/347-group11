@@ -41,6 +41,11 @@ public class KrampusStateMachine : MonoBehaviour
 
     void ChangeState()
     {
+        if(GetComponentInParent<KrampusController>().dead)
+        {
+            ChangeAnimation(death);
+            return;
+        }
         Vector3 currentScale = transform.localScale;
 
         Vector3 difference = _target.transform.position - transform.position;
