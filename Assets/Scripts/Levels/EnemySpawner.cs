@@ -9,10 +9,18 @@ public class EnemySpawner : MonoBehaviour
     public Vector2 spawnRange = Vector2.zero;
     public int spawnCount = 1;
 
-    private bool explored = false;
+    public int numDead = 0;
+
+    public bool roomClear = false;
     // Start is called before the first frame update
     void Start()
     {
+    }
+
+    private void Update()
+    {
+        if (numDead == spawnCount)
+            roomClear = true;
     }
 
     // Detects whether a player has entered the room
@@ -20,18 +28,16 @@ public class EnemySpawner : MonoBehaviour
     {
         GameObject collidedWith = other.gameObject; // what we collided with ?
 
-        Debug.Log("TRIGGER!");
-
         if (!collidedWith.CompareTag("Player"))
         {
             return;
         }
-        if(!explored)
+        if(!roomClear)
         {
-            StartCoroutine(SpawnEnemy());
+            for (int i = 0; i < spawnCount; i++) {
+                StartCoroutine(SpawnEnemy());
+            }
         }
-
-        explored = true;
     }
 
     //Spawns an enemy with the room as its parent within the specified spawn range

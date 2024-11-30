@@ -7,18 +7,32 @@ public class KrampusController : MonoBehaviour
     public Vector2 teleportRange = Vector2.zero;
     public GameObject TeleportEffect;
 
+    public bool dead = false;
+
     private Vector3 nextPos = Vector3.zero;
+
+    private StatManager stats;
 
     private void Start()
     {
+        stats = GetComponentInParent<StatManager>();
         nextPos = new Vector2(Random.Range(-teleportRange.x, teleportRange.x), Random.Range(-teleportRange.y, teleportRange.y));
         CreateEffect(nextPos);
 
         InvokeRepeating("Teleport", 5, 5);
     }
 
+    private void Update()
+    {
+        dead = stats.dead;
+
+        if(dead)
+            GetComponent<BoxCollider2D>().enabled = false;
+    }
+
     void Teleport()
     {
+        if(dead) return;
         transform.localPosition = nextPos;
         nextPos = new Vector2(Random.Range(-teleportRange.x, teleportRange.x), Random.Range(-teleportRange.y, teleportRange.y));
         CreateEffect(nextPos);

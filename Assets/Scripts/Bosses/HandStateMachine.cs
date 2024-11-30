@@ -8,7 +8,13 @@ public class HandStateMachine : MonoBehaviour
     public AnimationClip handSmash;
     public AnimationClip death;
 
-    public GameObject target;
+    public GameObject attackEffect;
+
+    public float maxSpeed = 0.01f;
+
+    public int timeOffset = 5;
+
+    private GameObject target;
 
     private Animator _animator;
     private AnimationClip currentAnimation;
@@ -21,10 +27,8 @@ public class HandStateMachine : MonoBehaviour
     {
         target = GameObject.FindWithTag("Player");
         _animator = GetComponent<Animator>();
-        //_parentBody = GetComponentInParent<Rigidbody2D>();
 
-        //Sets the default animation to be front idle
-        ChangeAnimation(handIdle);
+        InvokeRepeating("SwitchState", timeOffset, 5);
     }
 
     private void ChangeAnimation(AnimationClip animation)
@@ -40,6 +44,13 @@ public class HandStateMachine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GetComponent<StatManager>().dead || transform.parent.gameObject.GetComponent<StatManager>().dead)
+        {
+            _state = "DEAD";
+            ChangeAnimation(death);
+            GetComponent<BoxCollider2D>().enabled = false;
+        }
+            
         // Do nothing if dead.
         if (_state == "DEAD")
         {
@@ -47,11 +58,29 @@ public class HandStateMachine : MonoBehaviour
         }
         if(_state == "SMASH") {
             ChangeAnimation(handSmash);
-            transform.position = Vector2.MoveTowards(transform.position, targetPos, 0.1f);
+            transform.position = Vector2.MoveTowards(transform.position, targetPos, maxSpeed);
         }
-        else
+        if(_state == "IDLE")
         {
-            transform.position = new Vector3(transform.position.x, target.transform.position.y, 0);
+            Vector2 moveVec = target.transform.position;
+            moveVec.x = transform.position.x;
+            transform.position = Vector2.MoveTowards(transform.position, moveVec, maxSpeed/5);
+            ChangeAnimation(handIdle);
+        }
+    }
+
+    void SwitchState()
+    {
+        if(_state == "IDLE")
+        {
+            _state = "SMASH";
+            targetPos = target.transform.position;
+            GameObject effect = Instantiate(attackEffect);
+            effect.transform.position = targetPos;
+        }
+        else if (_state == "SMASH")
+        {
+            _state = "IDLE";
         }
     }
 }

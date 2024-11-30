@@ -11,13 +11,11 @@ public class KrampusStateMachine : MonoBehaviour
 
     private Animator _animator;
     private AnimationClip currentAnimation;
-    //private Rigidbody2D _parentBody;
     private GameObject _target;
     // Start is called before the first frame update
     void Start()
     {
         _animator = GetComponent<Animator>();
-        //_parentBody = GetComponentInParent<Rigidbody2D>();
         _target = GameObject.FindWithTag("Player");
 
         //Sets the default animation to be front idle
@@ -41,6 +39,11 @@ public class KrampusStateMachine : MonoBehaviour
 
     void ChangeState()
     {
+        if(GetComponentInParent<KrampusController>().dead)
+        {
+            ChangeAnimation(death);
+            return;
+        }
         Vector3 currentScale = transform.localScale;
 
         Vector3 difference = _target.transform.position - transform.position;
