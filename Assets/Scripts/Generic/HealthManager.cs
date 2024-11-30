@@ -17,8 +17,6 @@ public class HealthManager : MonoBehaviour
         stats = transform.GetComponentInParent<StatManager>();
         healthAmount = stats.health;
         startHealth = healthAmount;
-
-        InvokeRepeating("Test", 1, 1);
     }
 
     // Update is called once per frame
@@ -28,10 +26,5 @@ public class HealthManager : MonoBehaviour
             gameObject.SetActive(false);
         healthAmount = stats.health;
         healthBar.fillAmount = healthAmount / startHealth;
-    }
-
-    void Test()
-    {
-        stats.TakeDamage(10);
     }
 }
