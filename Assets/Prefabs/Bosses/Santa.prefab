@@ -595,7 +595,7 @@ MonoBehaviour:
   backIdle: {fileID: 7400000, guid: 78567c6a83e76014b8de7a0d437a3029, type: 2}
   death: {fileID: 7400000, guid: 76abaa34aa51a24419d6f437e6abc5ca, type: 2}
   attack: {fileID: 9092528788022590482, guid: caed0f26dc52ff646a225cdaae88eab0, type: 3}
-  speed: 30
+  speed: 40
   followDistance: 2
 --- !u!50 &5995312165734140502
 Rigidbody2D:

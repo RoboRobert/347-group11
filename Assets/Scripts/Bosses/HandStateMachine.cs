@@ -41,8 +41,8 @@ public class HandStateMachine : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    // Handles moving the hands in FixedUpdate
+    void FixedUpdate()
     {
         if (GetComponent<StatManager>().dead || transform.parent.gameObject.GetComponent<StatManager>().dead)
         {

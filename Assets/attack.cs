@@ -71,7 +71,4 @@ public class attack : MonoBehaviour
 
         attack_movement_func(direction);
     }
-
-
-
 }

@@ -27,7 +27,11 @@ public class KrampusController : MonoBehaviour
         dead = stats.dead;
 
         if(dead)
+        {
             GetComponent<BoxCollider2D>().enabled = false;
+            GetComponentInParent<StatManager>().dead = true;
+        }
+            
     }
 
     void Teleport()
