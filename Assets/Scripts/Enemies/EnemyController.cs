@@ -22,21 +22,16 @@ public class EnemyController : MonoBehaviour
         target = GameObject.FindWithTag("Player");
     }
 
-    // Update is called once per frame
-    // void Update()
-    // {
-    //     
-    // }
-
     void FixedUpdate()
-    {  
-        //Calls the movement logic for the enemy
-        movement_func();
-
+    {
         if (GetComponent<StatManager>().dead)
         {
-            Destroy(this.gameObject);
+            _rb.velocity = Vector2.zero;
+            return;
         }
+            
+        //Calls the movement logic for the enemy
+        movement_func();
     }
 
     // Enemy movement logic

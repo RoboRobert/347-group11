@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2087383399948756713}
   - component: {fileID: 2087383399948756694}
   - component: {fileID: 2087383399948756695}
-  - component: {fileID: 2087383399948756692}
+  - component: {fileID: 3865757287898342206}
   m_Layer: 0
   m_Name: SpriteRenderer
   m_TagString: Untagged
@@ -105,7 +105,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2087383399948756692
+--- !u!114 &3865757287898342206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,15 +114,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2087383399948756712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e7c8f1b75e3a5a4ca2f83cc941123e3, type: 3}
+  m_Script: {fileID: 11500000, guid: b7f97dce94721a441aac79d524f423f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideRun: {fileID: 7400000, guid: ea9f971800c17f14381d0808b3f621a4, type: 2}
-  sideIdle: {fileID: 7400000, guid: 14f8ccc21719492438dce4b0d12c5e0c, type: 2}
-  frontRun: {fileID: 7400000, guid: ea9f971800c17f14381d0808b3f621a4, type: 2}
-  frontIdle: {fileID: 7400000, guid: 14f8ccc21719492438dce4b0d12c5e0c, type: 2}
-  backRun: {fileID: 7400000, guid: ea9f971800c17f14381d0808b3f621a4, type: 2}
-  backIdle: {fileID: 7400000, guid: 14f8ccc21719492438dce4b0d12c5e0c, type: 2}
+  run: {fileID: 7400000, guid: ea9f971800c17f14381d0808b3f621a4, type: 2}
+  idle: {fileID: 7400000, guid: 14f8ccc21719492438dce4b0d12c5e0c, type: 2}
+  death: {fileID: 7400000, guid: 43c0b3ccd93504b499458f57aaae69e1, type: 2}
 --- !u!1 &2087383399986256058
 GameObject:
   m_ObjectHideFlags: 0
