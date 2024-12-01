@@ -44,7 +44,7 @@ public class HandStateMachine : MonoBehaviour
     // Handles moving the hands in FixedUpdate
     void FixedUpdate()
     {
-        if (GetComponent<StatManager>().dead || transform.parent.gameObject.GetComponent<StatManager>().dead)
+        if (GetComponent<StatManager>().dead)
         {
             _state = "DEAD";
             ChangeAnimation(death);

@@ -9,6 +9,7 @@ TagManager:
   - Life
   - Attack
   - ClosedWall
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX

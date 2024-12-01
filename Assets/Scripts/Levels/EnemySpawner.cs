@@ -19,7 +19,7 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        if (numDead == spawnCount)
+        if (numDead >= spawnCount)
         {
             roomClear = true;
             transform.Find("ClosedWall").gameObject.SetActive(false);

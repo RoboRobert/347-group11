@@ -24,7 +24,10 @@ public class StatManager : MonoBehaviour
 
         if (health <= 0) {
             dead = true;
-            transform.GetComponentInParent<EnemySpawner>().numDead += 1;
+            EnemySpawner spawner = transform.GetComponentInParent<EnemySpawner>();
+            if (spawner != null) {
+                spawner.numDead += 1;
+            }
         }
     }
 }

@@ -32,6 +32,7 @@ Transform:
   m_Children:
   - {fileID: 8613651954459542810}
   - {fileID: 8613651954481775561}
+  - {fileID: 8613651954289044843}
   m_Father: {fileID: 8613651955163181865}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -88,7 +89,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbfc2563892e09a4687e82a86d7cac14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 300
   dead: 0
 --- !u!1 &8613651953874033455
 GameObject:
@@ -254,7 +255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbfc2563892e09a4687e82a86d7cac14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 300
   dead: 0
 --- !u!114 &8613651953874033449
 MonoBehaviour:
@@ -332,8 +333,8 @@ RectTransform:
   - {fileID: 8613651954981982616}
   - {fileID: 8613651955383038751}
   - {fileID: 8613651955450500696}
-  m_Father: {fileID: 8613651955163181865}
-  m_RootOrder: 3
+  m_Father: {fileID: 8613651953853519288}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -693,7 +694,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8613651955163181865}
-  - component: {fileID: 8613651955163181866}
   m_Layer: 0
   m_Name: Krampus
   m_TagString: Untagged
@@ -715,24 +715,9 @@ Transform:
   - {fileID: 8613651955435496907}
   - {fileID: 8613651953874033448}
   - {fileID: 8613651953853519288}
-  - {fileID: 8613651954289044843}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8613651955163181866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8613651955163181864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbfc2563892e09a4687e82a86d7cac14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  dead: 0
 --- !u!1 &8613651955383038750
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbfc2563892e09a4687e82a86d7cac14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 300
   dead: 0
 --- !u!114 &8613651955435496918
 MonoBehaviour:
