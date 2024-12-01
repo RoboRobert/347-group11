@@ -11,11 +11,11 @@ public class attack : MonoBehaviour
 
     [Header("Set Dynamically")]
     public float speed = 10f;
-    public float health = 100f;
+    public float damage = 10f;
 
     private Rigidbody2D attack_rb;
 
-    public float lifetime = 50;
+    public float lifetime = 1f;
 
     public float attack_size = 1f;
 
@@ -28,8 +28,8 @@ public class attack : MonoBehaviour
     {
         // Get the rigidbody component
         attack_rb = GetComponent<Rigidbody2D>();
-        
 
+        Invoke("KillSelf", lifetime);
     }
 
     public void attack_movement_func(Vector3 my_vector)
@@ -37,7 +37,6 @@ public class attack : MonoBehaviour
 
         direction = my_vector / bullet_speed;
         transform.Translate(my_vector);
-
     }
 
     public void attack_init_func(float size, float speed, float range)
@@ -49,29 +48,23 @@ public class attack : MonoBehaviour
         this.transform.localScale = Vector3.one * size;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-
-        
-    }
-
     void FixedUpdate()
     {
-        lifetime = lifetime - 1;
-
-        // UnityEngine.Debug.Log("life time = " + lifetime);
-
-        if (lifetime <= 0)
-        {
-            // UnityEngine.Debug.Log("destroying attack");
-            Destroy(this.gameObject);
-        }
-
         attack_movement_func(direction);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        UnityEngine.Debug.Log("Triggered!");
+        GameObject other = collision.gameObject;
+        if(other.CompareTag("Enemy"))
+        {
+            other.GetComponent<StatManager>().TakeDamage(damage);
+        }
+    }
 
-
+    void KillSelf()
+    {
+        Destroy(gameObject);
+    }
 }

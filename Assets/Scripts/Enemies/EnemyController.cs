@@ -8,8 +8,7 @@ public class EnemyController : MonoBehaviour
 {
     [Header("Set Dynamically")]
     public GameObject target;
-    public float health = 100f;
-    public float speed = 3f;
+    public float speed = 20f;
     
     //Follow distance in grid squares of 32 pixels each
     public float followDistance = 2f;
@@ -34,7 +33,7 @@ public class EnemyController : MonoBehaviour
         //Calls the movement logic for the enemy
         movement_func();
 
-        if (health<= 0 )
+        if (GetComponent<StatManager>().dead)
         {
             Destroy(this.gameObject);
         }
@@ -56,18 +55,5 @@ public class EnemyController : MonoBehaviour
     
         //Apply the movement vector
         _rb.velocity = movementVector;
-    }
-
-    void OnCollisionEnter2D(Collision2D coll)
-    {
-        GameObject collidedWith = coll.gameObject;
-
-        if (collidedWith.CompareTag("Attack"))
-        {
-            // TO DO: make health go down by weapon damage, not 10
-            Destroy(collidedWith);
-            // enemy health goes down by 10
-            health -= 10;
-        }
     }
 }

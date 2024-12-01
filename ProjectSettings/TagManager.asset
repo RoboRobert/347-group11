@@ -8,6 +8,8 @@ TagManager:
   - Weapon
   - Life
   - Attack
+  - ClosedWall
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX

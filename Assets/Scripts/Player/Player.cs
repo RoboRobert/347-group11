@@ -130,7 +130,7 @@ public class Player : MonoBehaviour
 
         UnityEngine.Debug.Log("Collision!");
 
-        if (collidedWith.CompareTag("Enemy"))
+        if (collidedWith.CompareTag("Enemy") || collidedWith.CompareTag("EnemyAttack"))
         {
             // player health goes down by 10
             health -= 10;

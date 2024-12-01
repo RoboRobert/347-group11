@@ -19,8 +19,11 @@ public class EnemySpawner : MonoBehaviour
 
     private void Update()
     {
-        if (numDead == spawnCount)
+        if (numDead >= spawnCount)
+        {
             roomClear = true;
+            transform.Find("ClosedWall").gameObject.SetActive(false);
+        }
     }
 
     // Detects whether a player has entered the room
@@ -34,6 +37,7 @@ public class EnemySpawner : MonoBehaviour
         }
         if(!roomClear)
         {
+            transform.Find("ClosedWall").gameObject.SetActive(true);
             for (int i = 0; i < spawnCount; i++) {
                 StartCoroutine(SpawnEnemy());
             }
