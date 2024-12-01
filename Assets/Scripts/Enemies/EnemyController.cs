@@ -8,8 +8,7 @@ public class EnemyController : MonoBehaviour
 {
     [Header("Set Dynamically")]
     public GameObject target;
-    public float health = 100f;
-    public float speed = 3f;
+    public float speed = 20f;
     
     //Follow distance in grid squares of 32 pixels each
     public float followDistance = 2f;
@@ -20,6 +19,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        target = GameObject.FindWithTag("Player");
     }
 
     // Update is called once per frame
@@ -32,6 +32,11 @@ public class EnemyController : MonoBehaviour
     {  
         //Calls the movement logic for the enemy
         movement_func();
+
+        if (GetComponent<StatManager>().dead)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     // Enemy movement logic

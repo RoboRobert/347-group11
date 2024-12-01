@@ -5,11 +5,16 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Weapon
+  - Life
+  - Attack
+  - ClosedWall
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Attack
   - Water
   - UI
   - 
