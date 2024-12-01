@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5251378532348886804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.4, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.2}
   m_Children:
   - {fileID: 5251378532788994375}
@@ -131,9 +131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94a950eb68a7294ca58d52ce88772a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 8908709579264874787, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
-  player: {fileID: 8908709579264874787, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
-  speed: 3
+  target: {fileID: 8105087836424655813, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
+  player: {fileID: 8105087836424655813, guid: a30c44ff33391b5479b02d5fedf9347b, type: 3}
+  speed: 20
   followDistance: 2
   attackDistance: 5
   enemies: []
@@ -209,7 +209,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2510476293373519475, guid: 51359844fd764254f9b49a527f62c6e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -233,12 +233,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7c8f1b75e3a5a4ca2f83cc941123e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideRun: {fileID: 0}
-  sideIdle: {fileID: 0}
-  frontRun: {fileID: 0}
-  frontIdle: {fileID: 0}
-  backRun: {fileID: 0}
-  backIdle: {fileID: 0}
+  sideRun: {fileID: 7400000, guid: a88b2d0da57cc8440bb36c1447fc6823, type: 2}
+  sideIdle: {fileID: 7400000, guid: a6c738d5d7b05da4b8fdebb812e03940, type: 2}
+  frontRun: {fileID: 7400000, guid: a88b2d0da57cc8440bb36c1447fc6823, type: 2}
+  frontIdle: {fileID: 7400000, guid: a6c738d5d7b05da4b8fdebb812e03940, type: 2}
+  backRun: {fileID: 7400000, guid: a88b2d0da57cc8440bb36c1447fc6823, type: 2}
+  backIdle: {fileID: 7400000, guid: 63454ef3287129d4bbc58410720b7f6f, type: 2}
 --- !u!95 &6608784939952573325
 Animator:
   serializedVersion: 5

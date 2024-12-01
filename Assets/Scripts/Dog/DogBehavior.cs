@@ -8,10 +8,10 @@ public class DogBehavior : MonoBehaviour
     [Header("Set Dynamically")]
     public GameObject target;
     public GameObject player;
-    public float speed = 3f;
+    public float speed = 20f;
 
     public float followDistance = 2f;
-    public float attackDistance = 5f;
+    public float attackDistance = 3f;
 
     private Rigidbody2D _rb;
     public GameObject[] enemies;
