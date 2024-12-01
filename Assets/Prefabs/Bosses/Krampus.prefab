@@ -74,7 +74,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f93775ab9c9a60348b4edf1cadbf4304, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportRange: {x: 1.2, y: 1.2}
+  teleportRange: {x: 2.05, y: 2.05}
   TeleportEffect: {fileID: 6640477084747037415, guid: 9dced2f93140ca548bda9d3acca82d92, type: 3}
   dead: 0
 --- !u!114 &8613651953853519264
@@ -709,7 +709,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8613651955163181864}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.062462807, y: 0.70647424, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8613651955435496907}

@@ -33,10 +33,6 @@ public class Player : MonoBehaviour
     {
         // Get the rigidbody component
         _rb = GetComponent<Rigidbody2D>();
-        
-        // Set the camera to follow the current gameObject
-        FollowCam.POI = gameObject;
-
 
         // Get the health text game object
         GameObject healthGO = GameObject.Find("HealthText");
