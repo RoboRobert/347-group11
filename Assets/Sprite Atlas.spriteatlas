@@ -50,12 +50,32 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 8901ed81f860ea2489c479804ceef1f2, type: 3}
+  - {fileID: -1414945423596120978, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: 7945024772049196021, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: 2594330238162264419, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: -8828132414423432676, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: -4141561236014530172, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: 4787462388942523115, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: 4147202691995193560, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
+  - {fileID: -2938122201070954130, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
   - {fileID: -1458443813357182748, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: 5832503867631168462, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: -1676214605625876194, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: 1333520367039392188, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: -2251110279047685066, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
   - {fileID: -6246983838945074412, guid: 355b0f720e384e64aa78dd64406ccab2, type: 3}
+  - {fileID: -8868295278014784379, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 4737740417607836975, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 3214375376683076885, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 4077424212795172875, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 86161619025965778, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 8348171888125630345, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: -7057847096723428408, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 4374158068647955956, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: -6970643837158148029, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 4016603881578483358, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 5300800101985689452, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
+  - {fileID: 9158580068387496188, guid: afeaffc2cebb5b64e9a9d0e4e8545dc0, type: 3}
   - {fileID: 3815254287077816664, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 4748979927042621237, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: -4570366890628840940, guid: 970491842b2f30042a107618724cff05, type: 3}
@@ -63,6 +83,20 @@ SpriteAtlas:
   - {fileID: 2781949047259051930, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 3367943817971990689, guid: 970491842b2f30042a107618724cff05, type: 3}
   - {fileID: 21300000, guid: 1d40b5357b4e21144861a9d34fa264ea, type: 3}
+  - {fileID: 7077370781887369659, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: 6440942446194266028, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -7057735179850285994, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -2735386535886324728, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: 1122423576288254746, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: 6935576423006414028, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: 6826715380974986067, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -4238571996095941819, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -7358099453989041913, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -319146121258663199, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: 5225479592347138201, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -1054415655507620577, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -3818502965259298739, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
+  - {fileID: -7310403903978044065, guid: 0bc57fa850f9e7e4ba9a87b9eb3bdf5d, type: 3}
   - {fileID: 2894490584247124907, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5807493352471501733, guid: 04abd339844517840b343198af4f266b, type: 3}
   - {fileID: -5204425059597230152, guid: 9ad29ea9c2fcb294d93650b467489908, type: 3}
@@ -102,14 +136,45 @@ SpriteAtlas:
   - {fileID: -6080742608370530245, guid: 5d1f3e9c125caa042929d4c939159b27, type: 3}
   - {fileID: -247141911977100946, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
   - {fileID: 5133055042726923214, guid: ecc272ac99bcc1644a6e6c4d15a0814c, type: 3}
+  - {fileID: -8606613933039966646, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: -5482386112259895723, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: 7127834313113972642, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: -1195438467379172160, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: 7238434159012490878, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: 2578137269669855457, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: 7933530208741444431, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: 7753573641485807813, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: -4985010285799279834, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: -1394341793856941982, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
+  - {fileID: 2498648488815981171, guid: cc7cf75ee800b7244b4fd352224b02f5, type: 3}
   m_PackedSpriteNamesToIndex:
   - SimpleFloor-1
+  - Robo_santa_idle_7
+  - Robo_santa_idle_6
+  - Robo_santa_idle_5
+  - Robo_santa_idle_4
+  - Robo_santa_idle_3
+  - Robo_santa_idle_2
+  - Robo_santa_idle_1
+  - Robo_santa_idle_0
   - ChibiMandoIdleBack_5
   - ChibiMandoIdleBack_4
   - ChibiMandoIdleBack_1
   - ChibiMandoIdleBack_0
   - ChibiMandoIdleBack_3
   - ChibiMandoIdleBack_2
+  - christmas_running_11
+  - christmas_running_10
+  - christmas_running_8
+  - christmas_running_9
+  - christmas_running_4
+  - christmas_running_5
+  - christmas_running_6
+  - christmas_running_7
+  - christmas_running_0
+  - christmas_running_1
+  - christmas_running_2
+  - christmas_running_3
   - ChibiStormtrooperRunSide_3
   - ChibiStormtrooperRunSide_2
   - ChibiStormtrooperRunSide_1
@@ -117,6 +182,20 @@ SpriteAtlas:
   - ChibiStormtrooperRunSide_5
   - ChibiStormtrooperRunSide_4
   - Vulcan_Cannon
+  - Robo_santa_8
+  - Robo_santa_9
+  - Robo_santa_0
+  - Robo_santa_1
+  - Robo_santa_2
+  - Robo_santa_3
+  - Robo_santa_4
+  - Robo_santa_5
+  - Robo_santa_13
+  - Robo_santa_6
+  - Robo_santa_12
+  - Robo_santa_7
+  - Robo_santa_11
+  - Robo_santa_10
   - ChibiStormtrooperIdleSide_0
   - ChibiStormtrooperIdleSide_1
   - ChibiMandoIdleFrontSide_4
@@ -156,6 +235,17 @@ SpriteAtlas:
   - ChibiMandoIdleFront_4
   - ChibiStormtrooperIdleFront_0
   - ChibiStormtrooperIdleFront_1
+  - christmas_fit_4
+  - christmas_fit_5
+  - christmas_fit_6
+  - christmas_fit_7
+  - christmas_fit_0
+  - christmas_fit_1
+  - christmas_fit_2
+  - christmas_fit_3
+  - christmas_fit_8
+  - christmas_fit_9
+  - christmas_fit_10
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas
   m_IsVariant: 0
