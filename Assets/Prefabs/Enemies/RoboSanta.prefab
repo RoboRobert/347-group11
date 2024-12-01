@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6767279895486743455}
   - component: {fileID: 1492737368285366506}
   m_Layer: 0
-  m_Name: GenericEnemy
+  m_Name: RoboSanta
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,7 +184,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -5657355367272074767, guid: 970491842b2f30042a107618724cff05, type: 3}
+  m_Sprite: {fileID: -2938122201070954130, guid: e019bf420bed4904fac9d51f803f4e30, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -205,7 +205,7 @@ Animator:
   m_GameObject: {fileID: 7574442593282896654}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b21325066dea39f40a2e3af43feba360, type: 2}
+  m_Controller: {fileID: 9100000, guid: 05585643e49089345af86b5a0ae9df87, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -228,9 +228,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7c8f1b75e3a5a4ca2f83cc941123e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sideRun: {fileID: 0}
-  sideIdle: {fileID: 0}
-  frontRun: {fileID: 0}
-  frontIdle: {fileID: 0}
-  backRun: {fileID: 0}
-  backIdle: {fileID: 0}
+  sideRun: {fileID: 7400000, guid: 828c48b90dd94424c867f1d9da2426d6, type: 2}
+  sideIdle: {fileID: 7400000, guid: 51751eb54f656e44db884f39cf13cdf8, type: 2}
+  frontRun: {fileID: 7400000, guid: 828c48b90dd94424c867f1d9da2426d6, type: 2}
+  frontIdle: {fileID: 7400000, guid: 51751eb54f656e44db884f39cf13cdf8, type: 2}
+  backRun: {fileID: 7400000, guid: 828c48b90dd94424c867f1d9da2426d6, type: 2}
+  backIdle: {fileID: 7400000, guid: 51751eb54f656e44db884f39cf13cdf8, type: 2}
