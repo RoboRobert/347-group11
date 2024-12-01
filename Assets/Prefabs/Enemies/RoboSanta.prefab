@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 25
+  speed: 30
   followDistance: 0
 --- !u!114 &1492737368285366506
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbfc2563892e09a4687e82a86d7cac14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 100
   dead: 0
 --- !u!1 &7574442593282896654
 GameObject:
