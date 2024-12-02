@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 20
+  speed: 30
   followDistance: 2
 --- !u!1 &5251378532788994374
 GameObject:
