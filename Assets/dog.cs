@@ -27,6 +27,12 @@ public class dog : MonoBehaviour
         movement_func();
     }
 
+    public void make_bigger()
+    {
+        Vector3 currentsize = this.transform.localScale;
+        this.transform.localScale = currentsize * 1.2f;
+    }
+
     // Enemy movement logic
     void movement_func()
     {

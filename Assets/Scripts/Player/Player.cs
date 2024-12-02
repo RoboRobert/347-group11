@@ -153,9 +153,13 @@ public class Player : MonoBehaviour
         {
             Destroy(collidedWith);
             health += 10;
-
         }
-
+        if (collidedWith.CompareTag("Food"))
+        {
+            Destroy(collidedWith);
+            GameObject dog_obj = GameObject.FindWithTag("Dog");
+            dog_obj.GetComponent<dog>().make_bigger();
+        }
     }
 
 }
