@@ -45,17 +45,18 @@ public class dog : MonoBehaviour
         if (targetDir.magnitude > followDistance * 0.32)
         {
             movementVector = targetDir.normalized * (speed * Time.fixedDeltaTime);
+            //Apply the movement vector
+            _rb.velocity = movementVector;
         }
 
         // if the distance is too crazy, teleport
-        if (targetDir.magnitude > followDistance )
+        else if (targetDir.magnitude > 1.25)
         {
-            Vector3 newposition = targetDir;
-            newposition.y = targetDir.y - .2f;
+            Vector3 newposition = target.transform.position;
+            newposition.y = targetDir.y + .05f;
             _rb.transform.position = newposition;
         }
 
-        //Apply the movement vector
-        _rb.velocity = movementVector;
+        
     }
 }

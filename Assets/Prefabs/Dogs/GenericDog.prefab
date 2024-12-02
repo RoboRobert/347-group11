@@ -117,7 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   speed: 30
-  followDistance: 2
+  followDistance: 2.2
 --- !u!1 &5251378532788994374
 GameObject:
   m_ObjectHideFlags: 0
