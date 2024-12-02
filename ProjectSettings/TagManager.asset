@@ -10,6 +10,7 @@ TagManager:
   - Attack
   - ClosedWall
   - EnemyAttack
+  - Dog
   layers:
   - Default
   - TransparentFX
